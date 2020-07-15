@@ -1,0 +1,32 @@
+1) W systemie cygwin wejsc do katalogu Desktop:
+cd /cygdrive/c/Users/$USER/Desktop
+
+2) Utworzyc tutaj katalog "github"
+mkdir github
+
+3) Wejsc do tego katalogu:
+cd github
+
+4) Sciagnac swoje repozytorium
+git clone <reszta komendy>
+
+5) Wejsc do <repozytorium>/part01/lesson01
+cd <reszta komendy>
+
+5) Otworzyc w Notepad++ plik hello.c
+
+6) Zmienic w programie hello.c napis na:
+"Witaj marchewko"
+
+7) W cygwinie skompilowac program
+gcc <reszta komendy>
+
+8) Odpalic program i sprawdzic, ze program wydrukowal "Witaj marchewko"
+
+9) Usunac skompilowany plik .exe
+rm hello.exe
+
+10) Sprawdzic, ze w katalogu nie ma niepotrzebncyh plikow
+ls -la
+
+11) Wrzucic wszystko na githuba z informacja w commit: "marchewka"
